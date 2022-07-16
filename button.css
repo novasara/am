@@ -1,0 +1,77 @@
+button{
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 11px;
+		text-align: left;
+		color: darkolivegreen;
+
+		width: 90px;
+		padding: 7px 8px 7px 32px;
+		border: 1px solid darkolivegreen;
+		border-radius: 7px;
+		margin-top: 10px;
+		background-color: antiquewhite;
+		background-position: 8px;
+		background-repeat: no-repeat;
+}
+
+button.login{
+		background-image: url(signin.png);
+}
+
+button.signup{
+		background-image: url(signup.png);
+}
+
+button.tambah{
+		 background-image: url(add.png);
+}
+
+button.simpan{
+		background-image: url(save.png);
+}
+
+button.padam{
+		background-image: url(delete.png);
+}
+
+button.merah{
+		background-image: url(red.png);
+}
+
+button.biru{
+		background-image: url(blue.png);
+}
+
+button.hijau{
+		background-image: url(green.png);
+}
+
+button.hitam{
+		background-image: url(black.png);
+}
+
+button.import{
+		background-image: url(import.png);
+}
+
+button.cetak{
+		background-image: url(printer.png);
+}
+
+button.papar{
+		background-image: url(monitor.png);
+}
+
+button.semak{
+		background-image: url(betu.png);
+}
+
+button.salah{
+		background-image: url(salah.png);
+}
+
+button.hover{
+		background-color: silver;
+		cursor: pointer;
+}

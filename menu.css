@@ -1,0 +1,63 @@
+body{
+		background-color: blue;
+}
+h1{
+		font-family: verdana;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		color: orangered;
+}
+h2{
+		font-family: verdana;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
+		color: blueviolet;
+}
+ul{
+		list-style: none;
+		padding: 0px;
+		margin-left: 10px;
+		text-decoration: none;
+		display: block;
+}
+a{
+		font-family: verdana;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: right;
+		color: white;
+		width: 100px;
+		padding: 10px;
+		margin-bottom: 5px;
+		border-radius: 15px 0 0 15px;
+		background-color: darked;
+		display: block;
+		text-orientation: none;
+}
+a:hover{
+		background-color: lightcoral;
+		background-image: url(right.png);
+		background-repeat: no-repeat;
+		background-position: 6px 6px;
+}
+div{
+		padding: 5px;
+		margin: 10px auto;
+		border: 2px dashed red;
+		border-radius: 15px;
+		background-image: url(paper2.jpg);
+}
+li{
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+}
+caption{
+		font-family: verdana;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
+		color: yellow;
+}

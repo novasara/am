@@ -1,0 +1,59 @@
+<html>
+
+<link rel="stylesheet" href="borang.css">
+<link rel="stylesheet" href="button.css">
+
+<style>
+h3{
+		font-family: verdana;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
+		color: white;
+	}
+	body{
+		background-image: url(wall.jpg);
+	}
+
+	input[type="text"] {
+		width: 200px;
+		padding: 5px;
+		margin: 5px;
+	}
+</style>
+
+<body>
+	<h3 class="panjang">DAFTAR PESERTA</h3>
+	<form class="panjang" action="signup.php" method="post">
+		<table>
+			<tr>
+				<td>No Kad Pengenalan</td>
+				<td><input type="text" name="nokp" placeholder="No Kp tanpa '_'"></td>
+			</tr>
+			<tr>
+				<td>Nama Peserta</td>
+				<td><input type="text" name="peserta" placeholder="Nama (huruf besar)" width="100"></td>
+			</tr>
+
+			<tr>
+				<td>Kata Laluan</td>
+				<td><input type="password" name="passwd" placeholder="max:8 char"></td>
+			</tr>
+
+			<tr>
+				<td>Jantina</td>
+				<td><input type="radio" name="jantina" value="Lelaki">Lelaki
+					<input type="radio" name="jantina" value="Perempuan">Perempuan</td>
+			</tr>
+
+			<tr>
+				<td>No Telefon</td>
+				<td><input type="text" name="telefon"></td>
+			</tr>
+		</table>
+		<input type="hidden" type="text" name="status" value="PESERTA"><br>
+		<button class="tambah" type="submit">Daftar</button>
+		<button class="padam" type="button" onclick="window.location='login.php'">Batal</button>
+	</form>
+</body>
+</html>
